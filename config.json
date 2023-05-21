@@ -1,0 +1,24 @@
+{
+    "server": {
+        "port" : 3000,
+        "domain" : ""
+    },
+    "letmeauth" : {
+        "id" : "95716779970129948",
+        "scopes" : ["email", "identify", "socialnetwork"],
+        "secret" : "aHJDvXFZNlNuwBnsVpCaMwdXnOQram",
+        "callbackURI" : "http://localhost:3000/auth/login/callback"
+    },
+    "database": {
+        "mysql": {
+            "host": "srcscode.xyz",
+            "user": "chat",
+            "password": "*)tH76oWnI]6lSGR",
+            "database": "chat",
+            "supportBigNumbers": true,
+            "bigNumberStrings": true,
+            "multipleStatements": true,
+            "charset": "utf8mb4_general_ci"
+        }
+    }
+}
